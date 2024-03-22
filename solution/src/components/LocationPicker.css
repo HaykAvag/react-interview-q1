@@ -1,0 +1,11 @@
+.locationPicker {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.locationPicker select {
+    width: 60%;
+}

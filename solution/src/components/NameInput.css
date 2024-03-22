@@ -1,0 +1,31 @@
+.nameInput {
+    width: 100%;
+}
+
+.nameInput .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.nameInput input {
+    width: 60%;
+}
+
+.nameInput p {
+    margin-left: 42%;
+    height: 2.5vmin;
+    min-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nameInput .neutral {
+    color: rgb(70, 70, 70);
+    font-style: italic;
+}
+
+.nameInput .error {
+    color: rgb(207, 22, 22);
+}

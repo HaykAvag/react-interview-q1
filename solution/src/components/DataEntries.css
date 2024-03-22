@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    border-radius: 10px;
+    border: 1px solid #8b8b8b;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+td, th {
+    padding: 8px;
+    width: 100%;
+}
+
+td:first-child, th:first-child {
+    border-right: 1px solid #b8b8b8;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #dddddd;
+}
